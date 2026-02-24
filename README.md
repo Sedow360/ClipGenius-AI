@@ -14,7 +14,7 @@ See Demo : https://podclipper.vercel.app/
 
 ## 🎯 Problem Statement
 
-Content creators face a significant challenge: **80% of podcast content goes unused** because manual clip creation is time-intensive and requires specialized video editing skills. Traditional methods take 2-3 hours to create a single viral clip, while our AI solution reduces this to **under 5 minutes**.
+Content creators face a significant challenge: **80% of podcast content goes unused** because manual clip creation is time-intensive and requires specialized video editing skills. Traditional methods take 7-8 hours of maunally searching for viral clips, editing and refining them according to the target audience, while our AI solution reduces the entire workflow to **under 5 minutes** with a single click and unlimited iterations. Beyond a standard editor, our platform transforms labor-intensive creativity into high-fidelity automation that mirrors human intuition.
 
 ### Market Opportunity
 - **$4.2B** short-form video market (2024)
@@ -29,6 +29,7 @@ ClipGenius AI is an **enterprise-grade, scalable platform** that automatically:
 - **Generates vertical videos** optimized for social media (9:16 aspect ratio)
 - **Adds professional subtitles** with custom styling
 - **Deploys to cloud infrastructure** for global scalability
+- **Ensures data integrity** by including invisible watermarks on generated clips for the original owners.
 
 ## 🏗️ Technical Architecture
 
@@ -251,6 +252,8 @@ request_latency = Histogram('http_request_duration_seconds', 'HTTP request laten
 - **Rate Limiting**: DDoS protection with configurable limits
 - **Encryption**: AES-256 encryption for data at rest and in transit
 - **Audit Logging**: Complete audit trail for compliance
+- **Ownership Protection**: Embedded invisible watermark in video clips to facilitate tracking and discourage unauthorized redistribution; the platform assumes no liability for content theft
+
 
 ### Compliance
 - **GDPR**: Data privacy and right to deletion
